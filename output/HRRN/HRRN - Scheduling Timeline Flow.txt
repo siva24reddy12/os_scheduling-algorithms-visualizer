@@ -1,0 +1,155 @@
+*** Highest-Response-Ratio-Next (HRRN) Scheduling Algorithm in Operating System ***
+
+Time = 0-1:
+Time = 1-2:
+	Process-1 Moved From Job-Queue to Ready-Queue.
+	Process-1 Moved From Ready-Queue to Running-State.
+	Process-1's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 1).
+Time = 2-3:
+	Process-1's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 0).
+	Process-1 Moved From Running-State to Waiting-Queue to Execute Its IO Burst.
+Time = 3-4:
+	Process-1's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 3).
+Time = 4-5:
+	Process-1's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 2).
+Time = 5-6:
+	Process-3 Moved From Job-Queue to Ready-Queue.
+	Process-3 Moved From Ready-Queue to Running-State.
+	Process-1's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 1).
+	Process-3's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 3).
+Time = 6-7:
+	Process-1's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 0).
+	Process-1's I/O Waiting Time Was Finished and Was Moved From Waiting-Queue to Ready-Queue.
+	Process-3's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 2).
+Time = 7-8:
+	Process-3's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 1).
+Time = 8-9:
+	Process-3's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 0).
+	Process-3 Moved From Running-State to Waiting-Queue to Execute Its IO Burst.
+Time = 9-10:
+	Process-1 Moved From Ready-Queue to Running-State.
+	Process-3's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 2).
+	Process-1's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 2).
+Time = 10-11:
+	Process-3's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 1).
+	Process-1's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 1).
+Time = 11-12:
+	Process-3's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 0).
+	Process-3's I/O Waiting Time Was Finished and Was Moved From Waiting-Queue to Ready-Queue.
+	Process-1's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 0).
+	Process-1 Was Terminated (Moved From Running-State to Terminated-Queue).
+Time = 12-13:
+	Process-2 Moved From Job-Queue to Ready-Queue.
+	Process-3 Moved From Ready-Queue to Running-State.
+	Process-3's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 4).
+Time = 13-14:
+	Process-4 Moved From Job-Queue to Ready-Queue.
+	Process-3's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 3).
+Time = 14-15:
+	Process-5 Moved From Job-Queue to Ready-Queue.
+	Process-3's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 2).
+Time = 15-16:
+	Process-3's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 1).
+Time = 16-17:
+	Process-3's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 0).
+	Process-3 Was Terminated (Moved From Running-State to Terminated-Queue).
+Time = 17-18:
+	Process-2 Moved From Ready-Queue to Running-State.
+	Process-2's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 2).
+Time = 18-19:
+	Process-2's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 1).
+Time = 19-20:
+	Process-2's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 0).
+	Process-2 Moved From Running-State to Waiting-Queue to Execute Its IO Burst.
+Time = 20-21:
+	Process-4 Moved From Ready-Queue to Running-State.
+	Process-2's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 0).
+	Process-2's I/O Waiting Time Was Finished and Was Moved From Waiting-Queue to Ready-Queue.
+	Process-4's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 3).
+Time = 21-22:
+	Process-4's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 2).
+Time = 22-23:
+	Process-4's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 1).
+Time = 23-24:
+	Process-4's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 0).
+	Process-4 Moved From Running-State to Waiting-Queue to Execute Its IO Burst.
+Time = 24-25:
+	Process-5 Moved From Ready-Queue to Running-State.
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 14).
+	Process-5's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 4).
+Time = 25-26:
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 13).
+	Process-5's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 3).
+Time = 26-27:
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 12).
+	Process-5's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 2).
+Time = 27-28:
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 11).
+	Process-5's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 1).
+Time = 28-29:
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 10).
+	Process-5's First CPU Burst Was Executed for 1 Second (Remaining First CPU Burst Time = 0).
+	Process-5 Moved From Running-State to Waiting-Queue to Execute Its IO Burst.
+Time = 29-30:
+	Process-2 Moved From Ready-Queue to Running-State.
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 9).
+	Process-2's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 3).
+Time = 30-31:
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 8).
+	Process-2's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 2).
+Time = 31-32:
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 7).
+	Process-2's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 1).
+Time = 32-33:
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 6).
+	Process-2's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 0).
+	Process-2 Was Terminated (Moved From Running-State to Terminated-Queue).
+Time = 33-34:
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 5).
+Time = 34-35:
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 4).
+Time = 35-36:
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 3).
+Time = 36-37:
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 2).
+Time = 37-38:
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 1).
+Time = 38-39:
+	Process-4's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 0).
+	Process-4's I/O Waiting Time Was Finished and Was Moved From Waiting-Queue to Ready-Queue.
+Time = 39-40:
+	Process-4 Moved From Ready-Queue to Running-State.
+	Process-5's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 6).
+	Process-4's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 4).
+Time = 40-41:
+	Process-5's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 5).
+	Process-4's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 3).
+Time = 41-42:
+	Process-5's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 4).
+	Process-4's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 2).
+Time = 42-43:
+	Process-5's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 3).
+	Process-4's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 1).
+Time = 43-44:
+	Process-5's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 2).
+	Process-4's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 0).
+	Process-4 Was Terminated (Moved From Running-State to Terminated-Queue).
+Time = 44-45:
+	Process-5's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 1).
+Time = 45-46:
+	Process-5's Waited for I/O Resource for 1 Second (Remaining I/O Waiting Time = 0).
+	Process-5's I/O Waiting Time Was Finished and Was Moved From Waiting-Queue to Ready-Queue.
+Time = 46-47:
+	Process-5 Moved From Ready-Queue to Running-State.
+	Process-5's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 5).
+Time = 47-48:
+	Process-5's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 4).
+Time = 48-49:
+	Process-5's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 3).
+Time = 49-50:
+	Process-5's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 2).
+Time = 50-51:
+	Process-5's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 1).
+Time = 51-52:
+	Process-5's Second CPU Burst Was Executed for 1 Second (Remaining Second CPU Burst Time = 0).
+	Process-5 Was Terminated (Moved From Running-State to Terminated-Queue).

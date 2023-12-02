@@ -1,0 +1,30 @@
+Process 1:
+	arrival time: 1
+	termination time: 11
+	response time: 1
+	turnaround time: 10
+	waiting time: 10
+Process 3:
+	arrival time: 5
+	termination time: 32
+	response time: 5
+	turnaround time: 27
+	waiting time: 27
+Process 2:
+	arrival time: 12
+	termination time: 33
+	response time: 12
+	turnaround time: 21
+	waiting time: 21
+Process 4:
+	arrival time: 13
+	termination time: 48
+	response time: 13
+	turnaround time: 35
+	waiting time: 35
+Process 5:
+	arrival time: 13
+	termination time: 56
+	response time: 14
+	turnaround time: 43
+	waiting time: 43
