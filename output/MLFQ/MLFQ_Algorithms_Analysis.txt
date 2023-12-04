@@ -3,14 +3,14 @@ Algorithm Analysis:
 *
 CPU execution time: 48
 *
-CPU idle time: 8
+CPU idle time: 3
 *
-CPU utilization: 85.71%
+CPU utilization: 94.12%
 *
-Throughput: 11.20
+Throughput: 10.20
 *
-Average turnaround time: 27.20
+Average turnaround time: 24.60
 *
-Average waiting time: 27.20
+Average waiting time: 24.60
 *
-Average response time: 9.00
+Average response time: 10.00

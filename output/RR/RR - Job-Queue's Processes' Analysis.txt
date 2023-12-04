@@ -1,9 +1,9 @@
 Process 1:
 	arrival time: 1
-	termination time: 11
+	termination time: 10
 	response time: 1
-	turnaround time: 10
-	waiting time: 10
+	turnaround time: 9
+	waiting time: 9
 Process 3:
 	arrival time: 5
 	termination time: 29
